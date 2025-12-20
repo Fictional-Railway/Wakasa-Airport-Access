@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>駅・設備案内｜若狭空港アクセス鉄道公式ホームページ</title>
+    <style>
+        /* あなたのスタイルを100%継承 */
+        body { background-color: #f0f0f0; color: #333; font-family: "MS PGothic", "Osaka", sans-serif; font-size: 12px; margin: 0; padding: 0; }
+        header { background: linear-gradient(to bottom, #003399, #0055bb); color: white; padding: 15px 20px; border-bottom: 4px solid #ffcc00; text-shadow: 1px 1px 2px #000; }
+        h1 { margin: 0; font-size: 18px; }
+        #nav-bar { background-color: #e1e1e1; padding: 5px; border-bottom: 1px solid #999; font-weight: bold; }
+        #nav-bar a { margin: 0 10px; color: #003399; text-decoration: none; }
+        #nav-bar a:hover { text-decoration: underline; background-color: #ffcc00; }
+        .container { display: flex; padding: 10px; max-width: 1000px; margin: 0 auto; }
+        aside { width: 180px; background-color: #dcdcdc; padding: 10px; border: 1px solid #999; flex-shrink: 0; }
+        aside h3 { font-size: 13px; background-color: #003399; color: white; padding: 3px; margin-top: 15px; }
+        aside h3:first-child { margin-top: 0; }
+        aside ul { list-style: none; padding: 0; }
+        aside li { margin-bottom: 8px; border-bottom: 1px dotted #666; padding-left: 5px; }
+        aside li a { text-decoration: none; color: #333; }
+        aside li a:hover { color: blue; }
+        .counter-box { background-color: #000; color: #0f0; font-family: "Courier New", monospace; padding: 5px; text-align: center; font-weight: bold; font-size: 14px; border: 2px inset #999; margin: 10px 0; }
+        main { flex: 1; margin-left: 15px; background-color: white; border: 1px solid #999; padding: 15px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); }
+        h3 { border-bottom: 2px solid #003399; padding-bottom: 2px; color: #003399; }
+        marquee { background-color: #000; color: #0f0; padding: 5px; font-family: monospace; }
+        footer { text-align: center; padding: 20px; font-size: 10px; border-top: 1px solid #999; margin-top: 20px; }
+        
+        /* 駅紹介用追加スタイル */
+        .station-guide-box { border: 1px solid #ccc; margin-bottom: 15px; background: #fff; }
+        .station-guide-name { background: #eee; padding: 5px; font-weight: bold; border-bottom: 1px solid #ccc; display: flex; justify-content: space-between; }
+        .station-guide-body { padding: 10px; display: flex; gap: 10px; }
+        .station-map-dummy { width: 120px; height: 80px; background: #ddd; border: 1px solid #999; flex-shrink: 0; display: flex; align-items: center; text-align: center; font-size: 9px; }
+        .facility-icon { display: inline-block; padding: 2px 5px; background: #003399; color: white; border-radius: 3px; font-size: 9px; margin-right: 3px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>若狭空港アクセス鉄道株式会社 <small style="font-size: 11px;"><br>Wakasa Airport Access Railway</small><small style="font-size: 11px;">　/　若狭県都市事業</small></h1>
+</header>
+
+<div id="nav-bar">
+    <a href="#">ホーム</a> | <a href="#">時刻表</a> | <a href="#">運賃案内</a> | <a href="#">運行状況</a> | <a href="#">お問合せ</a> | <a href="#">サイトマップ</a>
+</div>
+
+<marquee scrollamount="5">【駅案内】若狭空港駅および正岡駅では、公衆無線LANサービスをご利用いただけます。　【マナー】駅構内・車内は終日禁煙です。喫煙は指定の場所でお願いいたします。</marquee>
+
+<div class="container">
+    <aside>
+        <h3>メニュー</h3>
+        <ul>
+            <li><a href="#">・企業情報</a></li>
+            <li><a href="#">・駅・設備案内</a></li>
+            <li><a href="#">・Air Wakasa予約</a></li>
+            <li><a href="#">・若狭県観光情報</a></li>
+            <li><a href="#">・お知らせ一覧</a></li>
+            <li><a href="#">・ICカードについて</a></li>
+            <li><a href="#">・採用情報</a></li>
+        </ul>
+
+        <h3>バナー広場</h3>
+        <div style="text-align:center;">
+            <div class="banner-link"><img src="https://via.placeholder.com/150x40?text=Wakasa+Pref" alt="若狭県"></div>
+            <div class="banner-link"><img src="https://via.placeholder.com/150x40?text=Santo+Railway" alt="国鉄三都線"></div>
+            <div class="banner-link"><img src="https://via.placeholder.com/150x40?text=Wakasa+AP" alt="若狭空港"></div>
+        </div>
+
+        <div style="text-align:center; margin-top:15px; border-top: 1px solid #999; padding-top: 10px;">
+            <small>あなたは...</small>
+            <div class="counter-box">00054321</div>
+            <small>人目の搭乗者です</small>
+        </div>
+    </aside>
+
+    <main>
+        <h3>駅・設備案内</h3>
+        <p>若狭空港アクセス鉄道・各駅の情報をご案内いたします。</p>
+
+        <div class="station-guide-box">
+            <div class="station-guide-name"><span>AP-01 若狭（わかさ）</span><span style="font-size:10px;">接続：国鉄三都線</span></div>
+            <div class="station-guide-body">
+                <div class="station-map-dummy">[駅構内図]<br>地上2階地下1階</div>
+                <div>
+                    若狭県の玄関口です。国鉄三都線との乗り換えはこちらが便利です。特急「Air Wakasa」も全列車停車します。<br>
+                    <span class="facility-icon">みどりの窓口</span><span class="facility-icon">Misaca券売機</span><span class="facility-icon">コインロッカー</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="station-guide-box">
+            <div class="station-guide-name"><span>AP-02 尼坂（あまさか）</span></div>
+            <div class="station-guide-body">
+                <div class="station-map-dummy">[駅構内図]<br>地上1階</div>
+                <div>
+                    「落ちない坂」で有名な尼坂寺への最寄駅です。受験シーズンには多くの参拝客で賑わいます。駅舎は開業当時の木造風デザインを復元したものです。<br>
+                    <span class="facility-icon">無人時間あり</span><span class="facility-icon">公衆電話</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="station-guide-box" style="border: 2px solid #003399;">
+            <div class="station-guide-name" style="background: #e6f7ff;"><span>AP-04 若狭空港（わかさくうこう）</span><span>★拠点駅</span></div>
+            <div class="station-guide-body">
+                <div class="station-map-dummy" style="background:#b3e5fc;">[駅構内図]<br>地下2階</div>
+                <div>
+                    若狭空港ターミナルビル直結。雨に濡れずにチェックインカウンターまで移動可能です。改札外にはお忘れ物センターも併設しています。<br>
+                    <span class="facility-icon">多機能トイレ</span><span class="facility-icon">エレベーター</span><span class="facility-icon">外貨両替機</span>
+                </div>
+            </div>
+        </div>
+
+        <h3>バリアフリー設備について</h3>
+        <p>
+            当社では、すべてのお客様に安心してご利用いただけるよう、駅設備の改善を進めております。
+            車椅子をご利用のお客様は、スムーズなご案内のため、あらかじめご利用の駅までご連絡いただけますと幸いです。
+        </p>
+
+        <div style="margin-top:20px; border:1px dashed #999; padding:10px; background:#fff8e1;">
+            <strong>【ご注意】</strong><br>
+            附見駅（AP-03）はホーム幅が狭いため、通過列車にご注意ください。
+        </div>
+
+    </main>
+</div>
+
+<footer>
+    (C) Wakasa Prefectural Urban Enterprise. All Rights Reserved.<br>
+    本サイトの画像、文章の無断転載を禁じます。推奨ブラウザ：Internet Explorer 6.0以上 / 解像度1024x768以上
+</footer>
+
+</body>
+</html>
